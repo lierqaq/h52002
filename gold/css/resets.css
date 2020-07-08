@@ -1,0 +1,113 @@
+@charset "utf-8";
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+input {
+    margin: 0;
+    padding: 0
+}
+body{
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+ul,ol,li{
+    list-style: none;
+}
+strong,b{
+    font-weight: normal;
+}
+em,i{
+    font-style: normal;
+}
+a,u{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+input{
+    outline: none;
+}
+img{
+    display: block;
+    border: 0;
+}
+fieldset {
+    border: 0;
+}
+textarea {
+    resize: none;
+}
+
+/* 封装类名 */
+.border_none{
+    border:none !important;
+}
+.bg_none{
+    background: none !important;
+}
+
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.text_ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fixed_center{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.son_center{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    
+}
+
+.clear_float:after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.clear_float {
+    zoom: 1;
+}

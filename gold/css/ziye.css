@@ -1,0 +1,236 @@
+@charset "utf-8";
+.banner {
+    width: 100%;
+    margin-bottom: 20px;
+  
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+  
+}
+.nav-con{
+    width: 1200px;
+    margin:0 auto ;
+   
+}
+.nav-con .navtit{
+    width: 1200px;
+    text-align: right;
+    margin-bottom: 9px;
+}
+.nav-con span{
+    font-size: 12px;
+    color: #c0c0c0;
+    cursor: pointer;
+    
+}
+.nav-con .act{
+    color:#8e2e32 ;
+}
+
+.nav-con .navbigbox{
+    width: 1200px;
+    border-top: 1px solid #666666;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-con .navbigbox .xxkbox{
+    height: 350px;
+    width: 126px;
+}
+
+
+.nav-con .navbigbox .xxktit{
+    width: 126px;
+    height: 35px;
+    border: 1px solid #666666;
+    border-top:none ;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 13px;
+}
+
+.nav-con .navbigbox .xxktit .aa{
+    height: 10px;
+    width: 1px;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    right: -1px;
+}
+.nav-con .navbigbox .xxktit .bb{
+    height: 8px;
+    width: 1px;
+    background: #ffffff;
+    position: absolute;
+    bottom: 4px;
+    left: -1px;
+}
+.nav-con .navbigbox .xxktit .cc{
+    height: 8px;
+    width: 1px;
+    background: #666666;
+    position: absolute;
+    bottom: -4px;
+    left: -1px;
+}
+.nav-con .navbigbox .xxk{
+    height: 300px;
+    width: 126px;
+    border-left: 1px solid #666666;
+    padding-left: 10px;
+    padding-top: 7px;
+
+}
+.nav-con .navbigbox .xxk .xxk1{
+    width: 126px;
+  
+}
+.nav-con .navbigbox .xxk .xxk1 span{
+    font-size: 18px;
+    color: black;
+    padding-left: 6px;
+    cursor: pointer;
+}
+.nav-con .navbigbox .xxk .xxk1 h3{
+font-size: 19px;
+line-height: 32px;
+cursor: pointer;
+}
+.nav-con .navbigbox .xxk .xxk1 li{
+    font-size: 14px;
+    line-height: 38px;
+    cursor: pointer;
+   
+}
+.nav-con .navbigbox .xxk .xxk1 ul{
+   display: none;
+   color: #666666;
+   cursor: pointer;
+   
+}
+.nav-con .navbigbox .xxk .xxk1 .show{
+    display: block;
+}
+.nav-con .navbigbox .xxk .xxk1 .act{
+    color:#8e2e32 ;
+}
+.nav-con .navbigbox .navcon{
+    width: 1000px;
+    padding-top: 65px;
+    
+}
+.nav-con .navbigbox .navcon .boxbor{
+    width: 844px;
+    height: 366px;
+    border: 2px solid #ccc;
+    margin-left: 156px;
+    display: flex;
+    margin-bottom: 55px;
+}
+.nav-con .navbigbox .navcon .boxbor .imgbox {
+    position: relative;
+    width: 240px;
+    height: 340px;
+}
+.nav-con .navbigbox .navcon .boxbor .imgbox img{ 
+    width: 240px;
+    height: 340px;
+    position: absolute;
+    left: -100px;
+    top:-45px;
+    z-index: 1;
+}
+.nav-con .navbigbox .navcon .boxbor .imgbox .garybox{
+    position: absolute;
+    width: 240px;
+    height: 340px;
+    left: -60px;
+    top:-20px;
+    background: #666666;
+}
+.nav-con .navbigbox .navcon .boxbor .imgbox .titbox img{
+    width: 200px;
+    height: 56px;
+    position: absolute;
+    left: 366px;
+    top: -30px;
+}
+.nav-con .navbigbox .navcon .boxbor .navbox{
+    width: 634px;
+    padding-top: 40px;
+    padding-right: 16px;
+}.nav-con .navbigbox .navcon .boxbor .navbox p{
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.nav-con .navbigbox .navcon .bigbox{
+    width: 858px;
+    height: 210px;
+    margin-left: 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 70px;
+}
+.nav-con .navbigbox .navcon .bigbox .imgbox{ 
+    position: relative;
+    
+} 
+.nav-con .navbigbox .navcon .bigbox .imgbox h2{ 
+    width: 258px;
+    height:60px ;
+    position: absolute;
+    bottom:-5px;
+    background: hsla(12, 56%, 53%, 0.507);
+  color: #ffffff;
+    line-height: 60px;
+    text-align: center;
+    transition: all 0.8s;
+    opacity: 0;
+} 
+
+.nav-con .navbigbox .navcon .bigbox .imgbox img{
+    width: 258px;
+    height: 184px;
+    transition: all 0.8s;
+}
+.nav-con .navbigbox .navcon .bigbox .btn1{
+    font-size: 98px;
+    font-weight: 200;
+    transform: scaleX(0.3);
+    position: absolute;
+    right: -58px;
+    top: 30px;
+    cursor: pointer;
+   
+}
+.nav-con .navbigbox .navcon .bigbox .btn2{
+    font-size: 98px;
+    font-weight: 200;
+    transform: scaleX(0.3);
+    position: absolute;
+    left: -58px;
+    top: 30px;
+    cursor: pointer;
+   
+}
+.nav-con .navbigbox .navcon .bigbox .imgbox:hover img{
+    transform: scale(1.1);
+
+}
+.nav-con .navbigbox .navcon .bigbox .imgbox:hover h2{
+    opacity: 1;
+    transform: scale(1.1);
+
+}
+
+
+
+

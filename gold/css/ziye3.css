@@ -1,0 +1,196 @@
+@charset "utf-8";
+.banner {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-con {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-con .navtit {
+    width: 1200px;
+    text-align: right;
+    margin-bottom: 9px;
+}
+
+.nav-con span {
+    font-size: 12px;
+    color: #c0c0c0;
+    cursor: pointer;
+}
+
+.nav-con .act {
+    color: #8e2e32;
+}
+
+.nav-con .navbigbox {
+    width: 1200px;
+    border-top: 1px solid #666666;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-con .navbigbox .xxkbox {
+    height: 350px;
+    width: 126px;
+}
+
+.nav-con .navbigbox .xxktit {
+    width: 126px;
+    height: 35px;
+    border: 1px solid #666666;
+    border-top: none;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 13px;
+}
+
+.nav-con .navbigbox .xxktit .aa {
+    height: 10px;
+    width: 1px;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    right: -1px;
+}
+
+.nav-con .navbigbox .xxktit .bb {
+    height: 8px;
+    width: 1px;
+    background: #ffffff;
+    position: absolute;
+    bottom: 4px;
+    left: -1px;
+}
+
+.nav-con .navbigbox .xxktit .cc {
+    height: 8px;
+    width: 1px;
+    background: #666666;
+    position: absolute;
+    bottom: -4px;
+    left: -1px;
+}
+
+.nav-con .navbigbox .xxk {
+    height: 186px;
+    width: 126px;
+    border-left: 1px solid #666666;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.nav-con .navbigbox .xxk .xxk1 {
+    width: 126px;
+}
+
+.nav-con .navbigbox .xxk .xxk1 span {
+    font-size: 18px;
+    color: black;
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+.nav-con .navbigbox .xxk .xxk1 h3 {
+    font-size: 19px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.nav-con .navbigbox .navcon{
+    width: 1009px;
+} 
+.nav-con .navbigbox .navcon .topbox{
+    height: 374px;
+    margin-top: 34px;
+    background: #a20a09;
+    position: relative;
+    margin-bottom: 30px;
+}
+.nav-con .navbigbox .navcon .topbox h2{
+    height: 55px;
+  line-height: 55px;
+  font-size: 18px;
+  color: #ffffff;
+
+}
+.nav-con .navbigbox .navcon .topbox .topnav{
+    width: 675px;
+    text-align: justify;
+    padding:24px 0 0 12px ;
+    font-size: 14px;
+    line-height: 23px;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+   
+}
+.nav-con .navbigbox .navcon .topbox .topnav p{
+    margin-bottom: 15px;
+}
+
+.nav-con .navbigbox .navcon .topbox .imgbox{
+    width:300px;
+    height: 360px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+.nav-con .navbigbox .navcon .topbox .imgbox img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-con .navbigbox .navcon .bottombox h2{
+    font-size: 18px;
+    line-height: 28px;
+}
+.nav-con .navbigbox .navcon .bottombox .xian{
+    height: 1px;
+    background: black;
+    width: 1009px;
+    margin-bottom: 18px;
+}
+.nav-con .navbigbox .navcon .bottombox .sbox{
+    height: 238px;
+    width: 1009px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-con .navbigbox .navcon .bottombox .sbox .imgbox{
+    height: 239px;
+    width: 211px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.nav-con .navbigbox .navcon .bottombox .sbox .imgbox img{
+    width: 100%;
+    height: 100%;
+}
+.nav-con .navbigbox .navcon .bottombox .sbox .imgbox .red{
+    height: 57px;
+    width: 211px;
+    background: hsla(12, 56%, 53%, 0.507); 
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 57px;
+    color: cornsilk;
+    opacity: 0;
+    transition: all 1s;
+}
+.nav-con .navbigbox .navcon .bottombox .sbox .imgbox:hover .red{
+    opacity: 1;
+}
